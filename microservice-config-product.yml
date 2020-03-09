@@ -26,13 +26,13 @@ spring:
       
 eureka:
   client:
-    registerWithEureka: ture
-    fetchRegistry: ture
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka
   instance:
     instenceId: ${spring.application.name}:${server.port}
-    prefer-ip-address: ture
+    prefer-ip-address: true
     
 ---
 server:
@@ -59,10 +59,10 @@ spring:
       
 eureka:
   client:
-    registerWithEureka: ture
-    fetchRegistry: ture
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka6001.com:6001/eureka
   instance:
     instenceId: ${spring.application.name}:${server.port}
-    prefer-ip-address: ture
+    prefer-ip-address: true
