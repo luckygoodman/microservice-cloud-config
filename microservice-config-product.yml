@@ -36,7 +36,7 @@ eureka:
     
 ---
 server:
-  port: 8001
+  port: 8801
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.yy.springcloud.entities
